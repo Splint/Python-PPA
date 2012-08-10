@@ -1,6 +1,6 @@
 """
 Filename:   population.py
-Author:     Splint
+Author:     Sang Shin
 Date:       08/09/2012
 """
 #!/bin/env python
