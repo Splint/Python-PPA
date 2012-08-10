@@ -8,7 +8,7 @@ import turtle as tu
 import sys
 
 
-def draw_tule(shape, red, blue, green):
+def drawShape(shape, red, blue, green):
     tu.title("Turtle Graphics with Python")
     tu.fillcolor(red, blue, green)
     tu.pencolor(red, blue, green)
@@ -99,7 +99,7 @@ def main():
     print
     print "Drawing the turtle..."
 
-    draw_tule(shape_str, red_fl, blue_fl, green_fl)
+    drawShape(shape_str, red_fl, blue_fl, green_fl)
 
 if __name__ == "__main__":
     main()
