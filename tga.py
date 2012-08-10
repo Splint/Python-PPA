@@ -8,7 +8,7 @@ import turtle as tu
 import math
 import sys
 
-def draw_tule(xpt1, ypt1, xpt2, ypt2):
+def drawTurtle(xpt1, ypt1, xpt2, ypt2):
     tu.title("tule Graphics with Python")
     
     tu.down()    
@@ -46,7 +46,7 @@ def main():
     angle_rad = math.atan(abs(tan_angle))
     angle_deg = (angle_rad * 180) / math.pi
 
-    draw_tule(x_coord_pt1, y_coord_pt1, x_coord_pt2, y_coord_pt2)
+    drawTurtle(x_coord_pt1, y_coord_pt1, x_coord_pt2, y_coord_pt2)
 
 if __name__ == "__main__":
     main()
