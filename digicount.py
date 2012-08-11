@@ -28,11 +28,10 @@ def main():
     print "The digit entered is %d" % inp_int_digi
     print
     
-    count = 0
-    digi_arr = [digi for digi in str(inp_int) if str(inp_int_digi) == digi]
-    
-    for digi in digi_arr: count += 1
+    digi_arr = [digi for digi in str(inp_int)]
+    count = digi_arr.count(str(inp_int_digi))
 
     print "The number of %s's in %s is %d" % (str(inp_int_digi), str(inp_int), count)
+
 if __name__ == "__main__":
     main()
