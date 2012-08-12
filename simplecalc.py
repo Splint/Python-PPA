@@ -45,8 +45,9 @@ def main():
         
         print    
         cont = raw_input("Continue (y or n)? ")
-        print
-        print "Thanks for using the simple calculator."
+    
+    print
+    print "Thanks for using the simple calculator."
 
 if __name__ == "__main__":
     main()
